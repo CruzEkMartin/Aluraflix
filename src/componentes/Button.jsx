@@ -1,9 +1,9 @@
 import './Button.css'
 
-export const Button = () => {
+export const Button = ({texto}) => {
   return (
     <>
-    <button>hola</button>
+    <button>{texto}</button>
     </>
   )
 }

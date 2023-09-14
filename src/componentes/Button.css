@@ -1,4 +1,7 @@
-button{
-    background-color: aqua;
-    color: black;
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: 0px;
 }
