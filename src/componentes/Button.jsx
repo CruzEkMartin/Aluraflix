@@ -1,9 +1,9 @@
-import './Button.css'
+import './../styles/styles.css';
 
 export const Button = ({texto}) => {
   return (
     <>
-    <button>{texto}</button>
+    <button className="boton-nuevo-video">{texto}</button>
     </>
   )
 }

@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+}
+
+.boton-nuevo-video {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    font-size: 32px;
+    color: white;
+    height: 5rem;
+    min-width:320px;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.logo{
+    max-height:40%;
+    margin-left:2%;
+}

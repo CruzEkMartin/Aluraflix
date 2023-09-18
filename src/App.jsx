@@ -1,12 +1,11 @@
 
-import './App.css'
-import { Button } from './componentes/Button'
+import { Header } from './componentes/Header'
 
 function App() {
 
   return (
     <>
-      <Button texto="Nuevo Video"></Button>
+      <Header ></Header>
     </>
   )
 }
