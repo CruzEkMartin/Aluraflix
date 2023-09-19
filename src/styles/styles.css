@@ -111,3 +111,19 @@ body {
     height:3rem;
     margin-left:2%;
 }
+
+.slider-box{
+    display: flex;
+    text-align: center;
+   gap: 20px;
+}
+
+.box{
+    background-color: lightblue;
+    width: 90%;
+    height: 300px;
+}
+
+.box-titulo{
+    
+}
