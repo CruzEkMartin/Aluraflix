@@ -50,15 +50,15 @@ body {
 
 .container-contenido {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     flex-wrap: wrap;
     height: 80vh;
     align-content: center;
     justify-content: space-between;
-    margin:1rem;
+    margin: 1rem;
 }
 
-.container-contenido-info{
+.container-contenido-info {
     width: 45%;
 }
 
@@ -89,41 +89,47 @@ body {
     font-size: 1.2rem;
 }
 
-.container-card{
+.container-card {
     width: 45%;
-   
+
 }
 
-.container-card-img{
+.container-card-img {
     width: 90%;
-    border: 5px solid  #2A7AE4;
+    border: 5px solid #2A7AE4;
 }
 
-.footer{
+.footer {
     background-color: #000000;
     height: 10vh;
     text-align: center;
     border-top: 2px solid #2A7AE4;
-    padding-top:1rem;
+    padding-top: 1rem;
 }
 
-.footer-logo{
-    height:3rem;
-    margin-left:2%;
+.footer-logo {
+    height: 3rem;
+    margin-left: 2%;
 }
 
-.slider-box{
+.slider-box {
     display: flex;
     text-align: center;
-   gap: 20px;
+    gap: 20px;
 }
 
-.box{
+.box {
     background-color: lightblue;
     width: 90%;
     height: 300px;
 }
 
-.box-titulo{
-    
+/* the slides */
+.slick-slide {
+    margin: 0 27px;
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -27px;
 }

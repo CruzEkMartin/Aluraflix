@@ -52,7 +52,7 @@ export const SliderCarousel = () => {
                 backgroundColor: 'rgba(0, 0, 0, 0.8)',
             }}>
             <h2>Slider</h2>
-            <Slider  className="slider-box" {...settings}>
+            <Slider {...settings}>
                 <div className="box">
                     <div className="box-titulo">1</div>
                 </div>
